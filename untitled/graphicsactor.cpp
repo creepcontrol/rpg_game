@@ -34,7 +34,7 @@ void GraphicsActor::setSprites(AnimationID sprites, bool force) {
  */
 void GraphicsActor::onAnimationFinished() {
     if (m_currentAction == AnimationID::Fight) {
-           int curHP = currentFocusEnemy->lessHpRect(PAttk);
+           currentFocusEnemy->lessHpRect(PAttk);
     }
     processKey(AnimationID::Stay);
     //processKey(m_currentAction);

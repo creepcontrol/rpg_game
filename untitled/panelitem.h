@@ -7,6 +7,8 @@ class PanelItem
 public:
     PanelItem();
     QGraphicsRectItem* AddCell(QGraphicsRectItem *rectangle, QGraphicsScene *scene,int width);
+    QGraphicsRectItem* MenuAddCell(QGraphicsRectItem *rectangle, QGraphicsScene *scene,int width);
+    void AddPixmap(const QString &filename, QGraphicsRectItem *Cell);
     void AddPanel(QGraphicsScene *scene);
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
     QGraphicsRectItem *MainPanel;
@@ -21,6 +23,10 @@ public:
     QGraphicsRectItem *ninthCell;
     QGraphicsRectItem *tenthCell;
     QGraphicsRectItem *ChildPanel;
+    QGraphicsRectItem *menuFirstCell;
+    QGraphicsRectItem *menuSecondCell;
+    QGraphicsRectItem *menuThirdCell;
+    QGraphicsRectItem *menuFourthCell;
 };
 
 #endif // PANELITEM_H

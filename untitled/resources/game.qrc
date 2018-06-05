@@ -9,5 +9,6 @@
         <file>game/about.png</file>
         <file>game/hedgehog_fight.png</file>
         <file>game/sword.png</file>
+        <file>game/actorMenu.png</file>
     </qresource>
 </RCC>
