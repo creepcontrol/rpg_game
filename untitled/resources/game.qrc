@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>game/hedgehog_down.png</file>
+        <file>game/hedgehog_stay.png</file>
+        <file>game/hedgehog_left.png</file>
+        <file>game/hedgehog_right.png</file>
+        <file>game/hedgehog_up.png</file>
+        <file>game/tower.png</file>
+        <file>game/about.png</file>
+        <file>game/hedgehog_fight.png</file>
+        <file>game/sword.png</file>
+    </qresource>
+</RCC>

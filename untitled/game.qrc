@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/hedgehog_down.png</file>
+        <file>resources/hedgehog_stay.png</file>
+    </qresource>
+</RCC>
