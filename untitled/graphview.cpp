@@ -14,7 +14,6 @@ GraphView::GraphView(int h, int w, QWidget *parent)
 {
     setScene(&m_scene);
     enemy_actor = new EnemyActor();
-    m_scene.addItem(&m_tower);
     m_scene.addItem(&m_actor);
     m_scene.addItem(enemy_actor);
     m_scene.setSceneRect(0, 0, 900, 900);

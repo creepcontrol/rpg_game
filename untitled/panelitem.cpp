@@ -45,6 +45,7 @@ void PanelItem::AddPanel(QGraphicsScene *scene) {
 
    AddPixmap(":/game/sword.png", firstCell);
    AddPixmap(":/game/actorMenu.png", menuFirstCell);
+   AddPixmap(":/game/skillsMenu.png", menuSecondCell);
 
 }
 
@@ -60,7 +61,7 @@ void PanelItem::AddPixmap(const QString &filename, QGraphicsRectItem *Cell) {
     QGraphicsPixmapItem *pixmapItem = new QGraphicsPixmapItem();
     pixmapItem->setPixmap(QPixmap (*pixmap));
     pixmapItem->setParentItem(Cell);
-    pixmapItem->setPos(0,+10);
+    pixmapItem->setPos(10,10);
 }
 
 /*

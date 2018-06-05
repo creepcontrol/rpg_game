@@ -10,5 +10,6 @@
         <file>game/hedgehog_fight.png</file>
         <file>game/sword.png</file>
         <file>game/actorMenu.png</file>
+        <file>game/skillsMenu.png</file>
     </qresource>
 </RCC>
